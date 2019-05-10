@@ -1,3 +1,7 @@
+# Hope Components
+
+A framework for ALSAC and St Jude, using the hope framework, material design, and based on [bem](http://getbem.com/)/[smaccs](http://smacss.com/) naming conventions. The goal of this framework is to create a collaberative framework that is lightweight and extensible.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
