@@ -1,5 +1,20 @@
 Layout Example:
 
+```html
+<style>
+    .demo-layout-transparent {
+        background: url('../../assets/backgrounds/4.png') center / cover;
+        font-family: 'Roboto';
+        .mdl-layout__header,
+        .mdl-layout__drawer-button {
+            /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+            color: white;
+        }
+    }
+</style>
+```
+
 ```jsx
 import { LayoutDrawer } from './LayoutDrawer';
 import { LayoutHeader } from './LayoutHeader';
