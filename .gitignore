@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# specific folders
+/src/material-design-lite
+
 # testing
 /coverage
 

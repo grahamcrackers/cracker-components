@@ -3,19 +3,24 @@
 -   [x] Badges
 -   [x] Buttons
 -   [x] Cards
--   [ ] Chips
--   [ ] Dialogs
+-   [x] Chips
 -   [x] Layout
     -   [x] Navigation
     -   [x] Grid
     -   [x] Tabs
     -   [x] Footer
--   [ ] Lists
--   [ ] Loading
 -   [x] Menus
+
+Least to Most
+
 -   [ ] Sliders
+-   [ ] Loading
+
+-   [ ] Tooltips
+-   [ ] Lists
 -   [ ] Snackbar
--   [ ] Toggles
+
 -   [ ] Tables
 -   [ ] Text Fields
--   [ ] Tooltips
+-   [ ] Toggles
+-   [ ] Dialogs
