@@ -25,33 +25,35 @@ import { Nav } from './Nav';
 import { NavLink } from './NavLink';
 import { LayoutContent } from './LayoutContent';
 
-<Layout className="demo-layout-transparent">
-    <LayoutHeader isTransparent>
-        <LayoutHeaderRow>
-            {/* <!-- Title --> */}
+<div style={{ display: 'flex' }}>
+    <Layout className="demo-layout-transparent">
+        <LayoutHeader isTransparent>
+            <LayoutHeaderRow>
+                {/* <!-- Title --> */}
+                <LayoutTitle text="Title" />
+                {/* <!-- Add spacer, to align navigation to the right --> */}
+                <LayoutSpacer />
+                {/* <!-- Navigation --> */}
+                <Nav>
+                    <NavLink to="#!" text="Link" />
+                    <NavLink to="#!" text="Link" />
+                    <NavLink to="#!" text="Link" />
+                    <NavLink to="#!" text="Link" />
+                </Nav>
+            </LayoutHeaderRow>
+        </LayoutHeader>
+        <LayoutDrawer>
             <LayoutTitle text="Title" />
-            {/* <!-- Add spacer, to align navigation to the right --> */}
-            <LayoutSpacer />
-            {/* <!-- Navigation --> */}
             <Nav>
                 <NavLink to="#!" text="Link" />
                 <NavLink to="#!" text="Link" />
                 <NavLink to="#!" text="Link" />
                 <NavLink to="#!" text="Link" />
             </Nav>
-        </LayoutHeaderRow>
-    </LayoutHeader>
-    <LayoutDrawer>
-        <LayoutTitle text="Title" />
-        <Nav>
-            <NavLink to="#!" text="Link" />
-            <NavLink to="#!" text="Link" />
-            <NavLink to="#!" text="Link" />
-            <NavLink to="#!" text="Link" />
-        </Nav>
-    </LayoutDrawer>
-    <LayoutContent />
-</Layout>;
+        </LayoutDrawer>
+        <LayoutContent />
+    </Layout>
+</div>;
 ```
 
 ## Configuration options

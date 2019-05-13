@@ -19,6 +19,7 @@ export const Layout: FC<ILayoutProps> = ({
     hasNoDesktopDrawerButton,
     className,
     children,
+    ...props
 }) => {
     const classes = classnames(
         'mdl-layout',
