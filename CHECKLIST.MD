@@ -13,7 +13,7 @@
 
 Least to Most
 
--   [ ] Sliders
+-   [x] Sliders
 -   [ ] Loading
 
 -   [ ] Tooltips
