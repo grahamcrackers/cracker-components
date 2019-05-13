@@ -1,7 +1,7 @@
 ```jsx
 import CardTitle from './CardTitle';
 
-<Card hasShadow="2" className="demo-card">
+<Card hasShadow="2">
     <CardTitle>Title</CardTitle>
 </Card>;
 ```

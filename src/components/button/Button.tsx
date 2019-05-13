@@ -1,7 +1,7 @@
 import classnames from 'classnames';
 import React, { FC, HTMLProps } from 'react';
 import './button.scss';
-import { IRippleEffect } from '../interfaces/IRippleEffect';
+import { IRippleEffect } from '../common/interfaces/IRippleEffect';
 
 export type ButtonType = 'raised' | 'fab' | 'mini-fab' | 'icon';
 export type ColorModifiers = 'colored' | 'accent';

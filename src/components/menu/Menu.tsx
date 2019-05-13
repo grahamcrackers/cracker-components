@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import classnames from 'classnames';
-import { IRippleEffect } from '../interfaces/IRippleEffect';
+import { IRippleEffect } from '../common/interfaces/IRippleEffect';
 
 export interface IMenuProps extends IRippleEffect {
     hasPosition?: 'top-left' | 'top-right' | 'bottom-right';

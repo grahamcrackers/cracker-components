@@ -2,7 +2,7 @@
 
 -   [x] Badges
 -   [x] Buttons
--   [ ] Cards
+-   [x] Cards
 -   [ ] Chips
 -   [ ] Dialogs
 -   [x] Layout
@@ -12,7 +12,7 @@
     -   [x] Footer
 -   [ ] Lists
 -   [ ] Loading
--   [ ] Menus
+-   [x] Menus
 -   [ ] Sliders
 -   [ ] Snackbar
 -   [ ] Toggles

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import classnames from 'classnames';
-import { IScreenSizes } from '../interfaces/IScreenSize';
+import { IScreenSizes } from '../common/interfaces/IScreenSize';
 
 export const Nav: FC<IScreenSizes> = ({ largeScreenOnly, smallScreenOnly, children }) => {
     const classes = classnames('mdl-navigation', {
