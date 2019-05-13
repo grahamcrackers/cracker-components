@@ -1,5 +1,7 @@
 // import path from 'path';
 // import glob from 'glob';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const styles = require('./styleguide/styles');
 
 module.exports = {
     title: 'Hope Components Style Guide',
@@ -12,7 +14,8 @@ module.exports = {
     propsParser: require('react-docgen-typescript').withDefaultConfig({ propFilter: { skipPropsWithoutDoc: true } })
         .parse,
     require: ['material-design-lite/material.js'],
-    ignore: ['**/components/layout/**/*'],
+    // ignore: ['**/components/layout/**/*'],
+    skipComponentsWithoutExample: true,
     template: {
         head: {
             links: [
@@ -33,4 +36,5 @@ module.exports = {
             },
         },
     },
+    styles,
 };

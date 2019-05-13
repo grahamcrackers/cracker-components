@@ -1,15 +1,15 @@
 ### Components To Complete
 
--   [ ] Badges
--   [ ] Buttons
+-   [x] Badges
+-   [x] Buttons
 -   [ ] Cards
 -   [ ] Chips
 -   [ ] Dialogs
--   [ ] Layout
-    -   [ ] Navigation
-    -   [ ] Grid
-    -   [ ] Tabs
-    -   [ ] Footer
+-   [x] Layout
+    -   [x] Navigation
+    -   [x] Grid
+    -   [x] Tabs
+    -   [x] Footer
 -   [ ] Lists
 -   [ ] Loading
 -   [ ] Menus
